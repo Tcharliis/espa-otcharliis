@@ -11,6 +11,8 @@ programa
 		{
 			se (primos % cont == 0 )
 				totaldiv++
+			se (totaldiv == 3 )
+				pare
 		}
 		retorne totaldiv == 2 
 	}
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 427; 
+ * @POSICAO-CURSOR = 459; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
